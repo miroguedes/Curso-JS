@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background-color: rgb(64, 64, 131);
+            color: white;
+            font: normal Arial; 
+        }
+
+        h1 {
+            color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo!</h1>
+    <p>Meus primeiros comandos</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número: ')) //recebe valor string, converter para number com parseInt ou apenas com "number"
+        //"Number" tem que ter letra maiúscula
+        var n2 = Number(window.prompt('Digite outro número ')) //recebe valor string, converter para number com parseInt
+        //"Number" tem que ter letra maiúscula
+        var s = n1 + n2
+        window.alert(`A soma dos valores ${n1} e ${n2} é igual a ${s}`) //para usar $ é necessário usar crase `
+        //+ adição ou concatenação
+
+        //s.length determina quantos caracteres a string tem
+        //s.toUpperCase() faz tudo ficar maiúsculo
+        //s.toLowerCase() faz tudo ficar minúsculo
+    </script>
+</body>
+</html>
